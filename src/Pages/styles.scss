@@ -1,0 +1,105 @@
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    .fiveday-container{
+        display: flex;
+        gap: 10px;
+        >div{
+            display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(15, 15, 15, 0.404);
+    padding: 10px;
+    >div{
+        display: flex;
+        >img{
+            width: 20px;
+        }
+    }
+        }
+    }
+    .today-wrapper{
+        display: flex;
+        width: 100%;
+        max-width: 500px;
+        gap:20px;
+        align-items: center;
+        justify-content: center;
+        .today-all-data{
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            width: 100%;
+            >div{
+                border-bottom: 1px solid #1e2432;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                >img{
+                    width: 40px;
+                    height: 40px;
+                }
+            }
+          }
+    }
+}
+
+
+.city {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    max-width: 300px;
+    width: 100%;
+    background: rgba(250, 250, 250, 0.85);
+    box-shadow: 10px 10px 5px 0px rgba(15, 15, 15, 0.404);
+  }
+  
+  p {
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  
+  .city-temp {
+    font-size: 5rem;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #1e2432;
+    text-align: center;
+  }
+  
+  .ctiy sup {
+    font-size: 0.5em;
+  }
+  
+  .city-name {
+    font-size: 2em;
+  }
+
+  .city-name sup {
+    padding: 0.2em 0.6em;
+    margin-left: 0.2em;
+    border-radius: 30px;
+    color: #fff;
+    background: #ff8c00;
+  }
+  
+  .city-icon {
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
